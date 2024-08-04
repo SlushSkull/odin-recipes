@@ -1,3 +1,4 @@
+/* Code to add color to background of the HTML file */
 body {
     background-color: rgb(24, 26, 27);
 }
@@ -5,4 +6,24 @@ body {
 * {
     font-family: "Times New Roman", sans-serif;
     color: rgb(232, 230, 227);
+}
+
+/* Code to center the images */
+.food-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.heading {
+    text-align: center;
+}
+
+#index-heading {
+    font-size: 48px;
+}
+
+.index-list li {
+    font-size: 32px;
 }
